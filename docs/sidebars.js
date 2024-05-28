@@ -1,11 +1,12 @@
 export default {
-  tutorialSidebar: [
+  manualSidebar: [
     'intro',
-    'hello',
     {
       type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
+      label: '基本的な使い方',
+      items: ['basics'],
     },
   ],
 };
+
+//YWy8sHhQyBKi

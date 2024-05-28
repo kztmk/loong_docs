@@ -28,3 +28,35 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #333; /* 枠線のスタイル */
+  border-radius: 5px; /* 角を丸くする場合 */
+}
+.warning {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ffcc00;
+  background-color: #fff3cd;
+  color: #856404;
+  border-radius: 4px;
+}
+
+.warning h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.warning p {
+  margin: 0;
+}
+
+.red-text {
+  color: red;
+}

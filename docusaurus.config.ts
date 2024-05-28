@@ -4,7 +4,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 const config: Config = {
   title: 'Loong',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'あなたの作業を徹底効率化',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -26,7 +26,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'ja',
-    locales: ['ja, en'],
+    locales: ['ja'],
   },
 
   presets: [
@@ -37,15 +37,13 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/kztmk/loong_docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/kztmk/loong_docs/edit/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -56,25 +54,19 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/poster_landscape.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Loong',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Loong Logo',
+        src: 'img/logoLoong.png',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'manualSidebar',
           position: 'left',
-          label: 'Tutorial',
-        },
-        { to: '/blog', label: 'Blog', position: 'left' },
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          label: 'マニュアル',
         },
       ],
     },
@@ -82,46 +74,54 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '使う',
           items: [
             {
-              label: 'Tutorial',
+              label: 'マニュアル',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '法務情報',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: '利用規約',
+              href: 'https://sns-loong.imakita3gyo.com/ja/terms-and-conditions-ja/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'プライバシーポリシー',
+              href: 'https://sns-loong.imakita3gyo.com/ja/privacy-policy-ja/',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'クッキーポリシー',
+              href: 'https://sns-loong.imakita3gyo.com/ja/cookie-policy-ja',
+            },
+            {
+              label: '免責事項',
+              href: 'https://sns-loong.imakita3gyo.com/ja/disclaimer-ja',
+            },
+            {
+              label: '使用許諾書',
+              href: 'https://sns-loong.imakita3gyo.com/ja/end-user-license-agreement-ja/',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'こちらもどうぞ',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: '不具合・新機能追加状況',
+              to: 'https://sns-loong.imakita3gyo.com/ja/',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: '問合せ',
+              href: 'https://sns-loong.imakita3gyo.com/ja/contact/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 今北産業. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
