@@ -4,24 +4,28 @@ sidebar_position: 1
 
 # Windows へのインストール
 
-**概要:** 現在 Microsoft Store で審査中です。申請が受理され次第インストール方法をご案内します。
+**概要:** Windows へのインストールは、Windows ストアを通じて行います。
+
+## Windows ストア
+
+<div style={{ textAlign: 'center' }}>
+  <img src={require('@site/docs/basics/img/ch00_03.jpg').default} alt="Windowsストア Web" className="center" />
+</div>
+
+購入時に送信されるメールに Windows ストアの URL があります。ブラウザでアクセスしてください。ストアボタンをクリックすると Windows ストアの Loong のページが
+開きます。
+
+## Windows ストアでのインストール
+
+<div style={{ textAlign: 'center' }}>
+  <img src={require('@site/docs/basics/img/ch00_04.jpg').default} alt="Windowsストア" className="center" />
+</div>
+
+Windows ストアが開くと右上部に「入手」ボタンがありますのでクリックします。インストールが完了するとボタンが「開く」に変わります。
+
+すでに PC にインストールされていますので、他の Windows アプリケーションと同じように、スタートボタンから始めていただけます。
 
 <!-- comment
-
-## Loong のダウンロード
-
-<div style={{ textAlign: 'center' }}>
-  <img src="../images/Chapter01/ch01_01.jpg" alt="Topic 01 Image" className="center" />
-</div>
-
-購入時に送信されるメールにダウンロード URL があります。ブラウザでアクセスしてダウンロードしてください。
-
-## インストール
-
-<div style={{ textAlign: 'center' }}>
-  <img src="../images/Chapter01/ch01_02.jpg" alt="Topic 02 Image" className="center" />
-</div>
-
 ## Topic 03
 
 <div style={{ textAlign: 'center' }}>
